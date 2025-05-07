@@ -8,4 +8,8 @@ modeloapp/__pycache__/*
 
 /apps/products/__pycache__/*
 /apps/products/migrations/*
+
+/apps/socialnetworks/__pycache__/*
+/apps/socialnetworks/migrations/*
+
 .env
