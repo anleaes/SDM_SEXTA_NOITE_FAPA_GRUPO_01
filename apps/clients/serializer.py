@@ -1,4 +1,4 @@
-from .models import Client, ClientSocialnetwork
+from .models import Client, ClientSocialNetwork
 from rest_framework import serializers
 
 class ClientSerializer(serializers.ModelSerializer):
@@ -6,7 +6,7 @@ class ClientSerializer(serializers.ModelSerializer):
         model = Client
         fields = '__all__'
 
-class ClientSocialnetworkSerializer(serializers.ModelSerializer):
+class ClientSocialNetworkSerializer(serializers.ModelSerializer):
     class Meta:
-        model = ClientSocialnetwork
+        model = ClientSocialNetwork
         fields = '__all__'
