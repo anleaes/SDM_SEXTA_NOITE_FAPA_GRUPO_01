@@ -7,3 +7,7 @@ from .serializer import ClientSerializer, ClientSocialnetworkSerializer
 class ClientViewSet(viewsets.ModelViewSet):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
+
+class ClientSocialnetworkViewSet(viewsets.ModelViewSet):
+    queryset = ClientSocialnetwork.objects.all()
+    serializer_class = ClientSocialnetworkSerializer
