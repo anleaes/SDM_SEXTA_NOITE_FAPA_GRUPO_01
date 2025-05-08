@@ -1,4 +1,4 @@
-from .models import Order
+from .models import Order, OrderItem
 from rest_framework import serializers
 
 class OrderSerializer(serializers.ModelSerializer):
