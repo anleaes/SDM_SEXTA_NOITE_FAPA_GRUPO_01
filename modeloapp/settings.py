@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'socialnetworks.apps.SocialNetworksConfig',
     'clients.apps.ClientsConfig',
     'orders.apps.OrdersConfig',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
